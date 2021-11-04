@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    padding-bottom: 100px;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+.header-links{
+    justify-content: flex-end;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.header-links li {
+    display: inline-block;
+}
+
+#section-2 {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+}
+
+#header-section-2 {
+    margin-right: 5%;
+    width: 20%;
+}
+
+#img-section-2{
+    margin-left: 5%;
+    padding-bottom: 50px;
+}
+
+#section-2 h1 {
+    font: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+#header-section-2 {
+    flex-direction: column;
+}
+
+/*look up button tutorial to make it look nicer*/
+button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-size: 24px;
+    padding: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#section-3 {
+    width: auto;
+}
+
+/*Need to make section 3 responsive */
+#section-3 h1 {
+   text-align: center;
+   color: #1F2937;
+   padding: 50px;
+}
+
+#pog {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.pog1 {
+    padding-right: 20px;
+}
+
+.pog1 img {
+    width: 300px;
+}
+
+
+#pog p, .pog1 p {
+    color:#1F2937;
+}
+
+#section-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+}
+
+#qoute {
+    margin: 0 auto;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    padding: 100px;
+}
+
+#ad {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#c2a {
+    padding: 50px;
+    padding-left: 400px;
+    padding-right: 400px;
+    background-color: #3882F6;
+}
+
+#footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #1F2937;
+    font: 18px;
+    color: #E5E7EB;
+
+    padding: 25px;
+}
